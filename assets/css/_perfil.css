@@ -1,0 +1,45 @@
+.body-perfil {
+  background: #002748 !important; }
+
+.nombre-atleta {
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 40px; }
+
+.texto-citado {
+  color: #fff;
+  font-size: 20px; }
+
+.deporte {
+  color: #fff; }
+
+.borde {
+  border-right: 1px solid #fff; }
+
+.texto-descriptivo {
+  font-size: 18px;
+  line-height: 130%;
+  font-family: 'Roboto';
+  font-weight: 300;
+  color: #4b4b4b; }
+
+@media screen and (max-width: 1000px) {
+  .borde {
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid transparent; } }
+
+@media screen and (min-height: 420px) {
+  .fixProfile {
+    top: 80% !important; }
+  .alignVerticalContacts {
+    top: 0%; } }
+
+@media screen and (max-width: 450px) {
+  .texto-foto {
+    margin-top: -150px !important; }
+  .nombre-atleta {
+    font-size: 25px; } }
+
+@media screen and (max-width: 400px) {
+  .texto-foto {
+    margin-top: -100px !important; } }
