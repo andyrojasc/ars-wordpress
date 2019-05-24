@@ -14,14 +14,14 @@
     </section>
 
     <section class="cards-section">
-        <div class="container-fluid pt-5 pb-3 px-5 text-center">
+        <div class="container-fluid py-5 px-5 text-center">
             <div class="row justify-content-center">
                 <div class="col-sm-12 col-md-6 col-lg-4 px-1">
                     <div class="card card-01 mb-4  mx-auto">
                     <img class="card-img-top" src="https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?h=350&auto=compress&cs=tinysrgb" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="card-title">Workshottps</h3>
-                            <p class="card-text">From time to time, the ARS will offer Workshop Events for members to expand on their artistic techniques. Special workshop events will be planned throughout the upcoming months.</p>
+                            <p class="card-text px-3">From time to time, the ARS will offer Workshop Events for members to expand on their artistic techniques. Special workshop events will be planned throughout the upcoming months.</p>
                             <button type="button" class="btn btn-outline-danger text-uppercase ">learn more</button>
                         </div>
                     </div>
@@ -32,7 +32,7 @@
                     <img class="card-img-top" src="https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?h=350&auto=compress&cs=tinysrgb" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="card-title">Artists</h3>
-                            <p class="card-text">Our members directory for artists profiles, view thumbnails of their work, info about what they do, read artist bio's and find contact information such as web addresses for specific members</p>
+                            <p class="card-text px-3">Our members directory for artists profiles, view thumbnails of their work, info about what they do, read artist bio's and find contact information such as web addresses for specific members</p>
                             <button type="button" class="btn btn-outline-danger text-uppercase ">learn more</button>
                         </div>
                     </div>
@@ -43,7 +43,7 @@
                     <img class="card-img-top" src="https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?h=350&auto=compress&cs=tinysrgb" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="card-title">Events</h3>
-                            <p class="card-text">ARS offers fun and creative events throughout the year at the gallery and around Monteverde. Exhibitions, workshops, artist talks, and other events are always open to the public.</p>
+                            <p class="card-text px-3">ARS offers fun and creative events throughout the year at the gallery and around Monteverde. Exhibitions, workshops, artist talks, and other events are always open to the public. ARS offers fun and creative.</p>
                             <button type="button" class="btn btn-outline-danger text-uppercase ">learn more</button>
                         </div>
                     </div>
