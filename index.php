@@ -1,16 +1,33 @@
 <?php get_header(); ?>
 <div id="contenidoPagina">
     <section class="banner-section">
-        <div class="background-img" style="background-image: 
-    linear-gradient(
-      rgba(51,51,51, 0.45), 
-      rgba(51,51,51, 0.45)
-    ),
-    url(https://i.ytimg.com/vi/lusToov3pCI/maxresdefault.jpg);">
-            <div class="intro-text">
-                <h1 class="intro-heading">MAKING VISUAL ART VISIBLE</h1>
-            </div>
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="background-image: url(https://unsplash.it/1920/1080)">
+          <div class="carousel-caption">
+            <h1>Making Visual Art Visible</h1>
+            <button type="button" class="btn btn-danger mt-4">Learn More</button>
+          </div>
         </div>
+        <div class="carousel-item" style="background-image: url(https://unsplash.it/1920/1080)">
+          <div class="carousel-caption">
+            <h1>Making Visual Art Visible</h1>
+            <button type="button" class="btn btn-danger mt-4">Learn More</button>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image: url(https://unsplash.it/1920/1080)">
+          <div class="carousel-caption">
+            <h1>Making Visual Art Visible</h1>
+            <button type="button" class="btn btn-danger mt-4">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </div>
     </section>
 
     <section class="cards-section">

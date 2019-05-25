@@ -37,25 +37,25 @@
                         </thead>
                         <tbody>
                         <tr>
-                            <td data-label="Photo"><img src="https://www.cia.gov/library/publications/the-world-factbook/graphics/flags/large/gm-lgflag.gif" height="32"/></td>
+                            <td data-label="Photo"><img src="https://unsplash.it/1000/1100" height="100"/></td>
                             <td data-label="Name">Suzanne <br> Cruz</td>
                             <td data-label="Job">Artist, Photographer</td>
                             <td data-label="Contact">info@artist.com <br> (506) 1234-5678</td>
                         </tr>
                         <tr> 
-                            <td data-label="Photo"><img src="https://www.cia.gov/library/publications/the-world-factbook/graphics/flags/large/gh-lgflag.gif" height="32"/></td>
+                            <td data-label="Photo"><img src="https://unsplash.it/1000/1100" height="100"/></td>
                             <td data-label="Name">Vernon <br> Schmidt</td>
                             <td data-label="Job">Artist, Photographer</td>
                             <td data-label="Contact">info@artist.com <br> (506) 1234-5678</td>
                         </tr>
                         <tr>
-                            <td data-label="Photo"><img src="https://www.cia.gov/library/publications/the-world-factbook/graphics/flags/large/gr-lgflag.gif" height="32"/></td>
+                            <td data-label="Photo"><img src="https://unsplash.it/1000/1100" height="100"/></td>
                             <td data-label="Name">Bernice <br> Brown</td>
                             <td data-label="Job">Artist, Photographer</td>
                             <td data-label="Contact">info@artist.com <br> (506) 1234-5678</td>
                         </tr>
                         <tr>
-                            <td data-label="Photo"><img src="https://www.cia.gov/library/publications/the-world-factbook/graphics/flags/large/gl-lgflag.gif" height="32"/></td>
+                            <td data-label="Photo"><img src="https://unsplash.it/1000/1100" height="100"/></td>
                             <td data-label="Name">Thomas <br> Shelton</td>
                             <td data-label="Job">Artist, Photographer</td>
                             <td data-label="Contact">info@artist.com <br> (506) 1234-5678</td>

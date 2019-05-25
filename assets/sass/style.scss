@@ -10,9 +10,7 @@ License: GNU General Public License v2
     
     @import url('https://fonts.googleapis.com/css?family=Lato:400,900&display=swap');
     @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i&display=swap');
-    $primary-color: #2b2a2a;
-    $red-color: #dd0a3f;
-    @import 'contactos';
+    $footer-color: #2b2a2a;
     @import 'headerFooter';
     @import '404';
     * {
@@ -26,6 +24,10 @@ License: GNU General Public License v2
         margin-left: 5px;
         font-family: 'Lato';
         font-weight: 700!important;
+        text-shadow: 3px 3px 3px rgba(0, 0, 8, 0.54);
+        margin-bottom: 25px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
     }
     
     h2 {
@@ -43,7 +45,27 @@ License: GNU General Public License v2
         font-family: 'Lato', sans-serif;
     }
     
-    //Profiles
+    //btn
+    .btn-danger {
+        font-weight: 501;
+        background-color: #fb0301;
+        font-size: 1.3rem!important;
+        padding: 7px 15px 9px 15px!important;
+    }
+    
+    .btn-danger:hover {
+        background-color: #cc0a0a;
+    }
+    
+    .btn-outline-danger {
+        border-width: 3px!important;
+    }
+    
+    .btn {
+        font-weight: 700!important;
+    }
+    
+    //sections
     .artist-section {
         h2 {
             font-family: 'Playfair Display', serif;
@@ -71,48 +93,11 @@ License: GNU General Public License v2
             background: rgba(0, 0, 0, 0.651)!important;
             max-width: 300px;
         }
-    }
-    
-    .background-img {
-        text-align: center;
-        color: #fff;
-        height: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-    }
-    
-    .intro-text {
-        padding-top: 230px;
-        padding-bottom: 220px;
-    }
-    
-    .intro-text .intro-heading {
-        margin-bottom: 25px;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        text-shadow: 4px 5px 2px rgba(0, 0, 8, 0.705);
-    }
-    
-    tr {
-        border-bottom: 2px solid red;
-    }
-    
-    tbody {
-        overflow-y: scroll;
-    }
-    
-    .btn-outline-danger {
-        border-width: 3px!important;
-    }
-    
-    .btn {
-        font-weight: 700!important;
-    }
-    
-    .btn-danger {
-        padding: 7px 15px 9px 15px!important;
+        .img {
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
     }
     
     .cards-section {
@@ -130,6 +115,60 @@ License: GNU General Public License v2
             cursor: pointer;
             transform: scale(1.035);
         }
+    }
+    
+    .banner-section {
+        margin-top: 20px;
+        .carousel,
+        .carousel-inner,
+        .carousel-inner .carousel-item {
+            background-position: center bottom;
+            background-size: cover;
+            height: 100%;
+            .carousel-caption {
+                padding-bottom: 20vh;
+                padding-top: 25vh;
+                position: relative;
+                right: 0%;
+                left: 0%;
+            }
+            //Bootstrap Class
+            .carousel-indicators li {
+                margin-right: 15px!important;
+                width: 12px;
+                height: 12px;
+                border-radius: 15px;
+                border-top: 0px!important;
+                border-bottom: 0px!important;
+            }
+        }
+        .background-img {
+            text-align: center;
+            color: #fff;
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        .intro-text {
+            padding-bottom: 20vh;
+            padding-top: 20vh;
+        }
+    }
+    
+    //Tablas
+    tr {
+        border-bottom: 2px solid #db0a40;
+    }
+    
+    tbody {
+        overflow-y: scroll;
+    }
+    
+    .table td,
+    .table th {
+        vertical-align: middle!important;
     }
     
     @media only screen and (max-width: 600px) {
