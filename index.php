@@ -60,7 +60,7 @@
                     <img class="card-img-top" src="https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?h=350&auto=compress&cs=tinysrgb" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="card-title">Events</h3>
-                            <p class="card-text px-3">ARS offers fun and creative events throughout the year at the gallery and around Monteverde. Exhibitions, workshops, artist talks, and other events are always open to the public. ARS offers fun and creative.</p>
+                            <p class="card-text px-3">ARS offers fun and creative events throughout the year at the gallery and around Monteverde. Exhibitions, workshops, artist talks, and other events are always open to the public.</p>
                             <button type="button" class="btn btn-outline-danger text-uppercase ">learn more</button>
                         </div>
                     </div>
@@ -72,7 +72,7 @@
     <section class="artist-section py-4">
         <div class="container text-center">
             <div class="row">
-                <div class="col-12 px-0 px-lg-5">
+                <div class="col-12 px-2 px-lg-5">
                     <h2 class="pb-1">Who We Are</h2>
                     <h5 class="mb-4">Our mission is to promote art in Monteverde by 'Making Visual Art Visible.</h5>
                     <p>The ARS was founded in xxxx by a group of local artists who had a desire to share their expertise, knowledge, and enthusiasm for art. The Association has a broad range of talent from professional to novice. Members provide the ability to encourage, assist, develop, and exchange ideas and information in building on artistic skills. </p>
